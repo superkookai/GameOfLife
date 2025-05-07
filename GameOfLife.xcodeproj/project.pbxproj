@@ -6,17 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF1E2AC02DCB1940006A03DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1E2ABC2DCB1940006A03DE /* Assets.xcassets */; };
+		EF1E2AC12DCB1940006A03DE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E2ABD2DCB1940006A03DE /* MainView.swift */; };
+		EF1E2AC22DCB1940006A03DE /* GameOfLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E2ABE2DCB1940006A03DE /* GameOfLifeApp.swift */; };
+		EF1E2AC72DCB1B33006A03DE /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E2AC62DCB1B33006A03DE /* BoardView.swift */; };
+		EF1E2AC92DCB1B87006A03DE /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E2AC82DCB1B87006A03DE /* ControlView.swift */; };
+		EF1E2ACB2DCB1C02006A03DE /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E2ACA2DCB1C02006A03DE /* TitleView.swift */; };
+		EF1E2ACD2DCB1D20006A03DE /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E2ACC2DCB1D20006A03DE /* BackgroundView.swift */; };
+		EF1E2AD02DCB3295006A03DE /* BackgroundImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E2ACF2DCB3295006A03DE /* BackgroundImages.swift */; };
+		EF1E2AD22DCB3322006A03DE /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E2AD12DCB3322006A03DE /* BoardModel.swift */; };
+		EF1E2AD42DCB3AA4006A03DE /* DesignType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E2AD32DCB3AA4006A03DE /* DesignType.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF1E2AAE2DCB1937006A03DE /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1E2ABC2DCB1940006A03DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1E2ABD2DCB1940006A03DE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EF1E2ABE2DCB1940006A03DE /* GameOfLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeApp.swift; sourceTree = "<group>"; };
+		EF1E2AC62DCB1B33006A03DE /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		EF1E2AC82DCB1B87006A03DE /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		EF1E2ACA2DCB1C02006A03DE /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		EF1E2ACC2DCB1D20006A03DE /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		EF1E2ACF2DCB3295006A03DE /* BackgroundImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImages.swift; sourceTree = "<group>"; };
+		EF1E2AD12DCB3322006A03DE /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		EF1E2AD32DCB3AA4006A03DE /* DesignType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF1E2AB02DCB1937006A03DE /* GameOfLife */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GameOfLife;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF1E2AAB2DCB1937006A03DE /* Frameworks */ = {
@@ -32,7 +47,7 @@
 		EF1E2AA52DCB1937006A03DE = {
 			isa = PBXGroup;
 			children = (
-				EF1E2AB02DCB1937006A03DE /* GameOfLife */,
+				EF1E2ABF2DCB1940006A03DE /* GameOfLife */,
 				EF1E2AAF2DCB1937006A03DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +58,55 @@
 				EF1E2AAE2DCB1937006A03DE /* GameOfLife.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1E2ABF2DCB1940006A03DE /* GameOfLife */ = {
+			isa = PBXGroup;
+			children = (
+				EF1E2ACE2DCB327D006A03DE /* Image Resources */,
+				EF1E2AC52DCB1AF6006A03DE /* View */,
+				EF1E2AC42DCB1AED006A03DE /* ViewModel */,
+				EF1E2AC32DCB1AE6006A03DE /* Model */,
+				EF1E2ABE2DCB1940006A03DE /* GameOfLifeApp.swift */,
+				EF1E2ABC2DCB1940006A03DE /* Assets.xcassets */,
+			);
+			path = GameOfLife;
+			sourceTree = "<group>";
+		};
+		EF1E2AC32DCB1AE6006A03DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF1E2AD12DCB3322006A03DE /* BoardModel.swift */,
+				EF1E2AD32DCB3AA4006A03DE /* DesignType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF1E2AC42DCB1AED006A03DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF1E2AC52DCB1AF6006A03DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF1E2ABD2DCB1940006A03DE /* MainView.swift */,
+				EF1E2ACC2DCB1D20006A03DE /* BackgroundView.swift */,
+				EF1E2ACA2DCB1C02006A03DE /* TitleView.swift */,
+				EF1E2AC82DCB1B87006A03DE /* ControlView.swift */,
+				EF1E2AC62DCB1B33006A03DE /* BoardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF1E2ACE2DCB327D006A03DE /* Image Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF1E2ACF2DCB3295006A03DE /* BackgroundImages.swift */,
+			);
+			path = "Image Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +123,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF1E2AB02DCB1937006A03DE /* GameOfLife */,
 			);
 			name = GameOfLife;
 			packageProductDependencies = (
@@ -109,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1E2AC02DCB1940006A03DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +181,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1E2ACD2DCB1D20006A03DE /* BackgroundView.swift in Sources */,
+				EF1E2AC92DCB1B87006A03DE /* ControlView.swift in Sources */,
+				EF1E2AC12DCB1940006A03DE /* MainView.swift in Sources */,
+				EF1E2AD42DCB3AA4006A03DE /* DesignType.swift in Sources */,
+				EF1E2AD02DCB3295006A03DE /* BackgroundImages.swift in Sources */,
+				EF1E2AD22DCB3322006A03DE /* BoardModel.swift in Sources */,
+				EF1E2AC72DCB1B33006A03DE /* BoardView.swift in Sources */,
+				EF1E2AC22DCB1940006A03DE /* GameOfLifeApp.swift in Sources */,
+				EF1E2ACB2DCB1C02006A03DE /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
